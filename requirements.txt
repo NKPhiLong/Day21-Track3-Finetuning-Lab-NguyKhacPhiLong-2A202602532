@@ -1,0 +1,16 @@
+# Lab 21 — exact versions of the run in results/ (pip list on the Colab runtime, 2026-10-07).
+# Environment: Colab Free, Tesla T4 (driver 580.82.07), Python 3.13.15, fp16 (T4 has no bf16).
+# Lab code: VinUni-AI20k/Day21-Track3-Finetuning-Lab @ d27c1c0.
+# torch was preinstalled by Colab as 2.11.0+cu130 — install the build matching your CUDA.
+torch==2.11.0
+transformers==5.18.0
+trl==1.14.2
+peft==0.21.1
+accelerate==1.15.0
+datasets==5.1.0
+torchao==0.18.0
+tokenizers==0.23.2
+jinja2==3.1.6
+bitsandbytes==0.50.2; platform_system == "Linux"
+jupytext==1.19.5
+pytest==8.4.2
